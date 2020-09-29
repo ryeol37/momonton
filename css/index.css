@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
 body {
     background-color: #2c3e50;
     color : white;
@@ -28,4 +34,17 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn .5s linear;
+}
+
+.clock {
+    font-size: 10em;
+}
+
+.weather {
+    position: absolute;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
 }
